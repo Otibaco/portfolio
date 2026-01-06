@@ -1,15 +1,15 @@
 export const profileData = {
-  name: 'John Doe',
+name: 'Orji Franklin',
   title: 'Full-Stack Developer',
-  avatar: '/professional-developer-avatar.png',
-  email: 'john@example.com',
-  phone: '+1 (234) 567-890',
-  birthday: 'June 15, 1995',
-  location: 'San Francisco, California, USA',
+  avatar: '/me.jpeg',
+  email: 'orjifranklin42@gmail.com',
+  phone: '+2349169307673',
+  birthday: 'November 4, Unknown Year',
+  location: 'Onitsha, Anambra State, Nigeria',
   social: {
-    github: 'https://github.com/johndoe',
-    twitter: 'https://twitter.com/johndoe',
-    instagram: 'https://instagram.com/johndoe',
+    github: 'https://github.com/Otibaco',
+    twitter: 'https://x.com/orji_frank54398',
+    linkedin: 'https://www.linkedin.com/in/orji-franklin-15467b358/',
   },
 }
 
@@ -29,6 +29,7 @@ export const aboutData = {
       title: 'Backend Development',
       description: 'Creating robust APIs and server-side solutions with Node.js and modern frameworks.',
     },
+
     {
       icon: 'Smartphone',
       title: 'Mobile Development',

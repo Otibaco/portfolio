@@ -1,4 +1,4 @@
-import { Mail, Phone, Calendar, MapPin } from 'lucide-react'
+import { Mail, Phone, Calendar, MapPin, Linkedin } from 'lucide-react'
 import { Github, Twitter, Instagram } from 'lucide-react'
 import { profileData } from '@/lib/portfolio-data'
 
@@ -105,13 +105,13 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
           <Twitter className="w-5 h-5" />
         </a>
         <a
-          href={data.social.instagram}
+          href={data.social.linkedin}
           target="_blank"
           rel="noopener noreferrer"
           className="w-10 h-10 rounded-lg bg-secondary hover:bg-accent hover:text-accent-foreground transition-colors flex items-center justify-center"
-          aria-label="Instagram"
+          aria-label="LinkedIn"
         >
-          <Instagram className="w-5 h-5" />
+          <Linkedin className="w-5 h-5" />
         </a>
       </div>
     </aside>
