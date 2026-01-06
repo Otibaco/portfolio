@@ -19,7 +19,7 @@ export function ContactSection({ data = contactData }: ContactSectionProps) {
   const [isSubmitting, setIsSubmitting] = useState(false)
 
   // Replace with your Formspree endpoint
-  const FORMSPREE_ENDPOINT = process.env.FORMSPREE_ENDPOINT 
+  const FORMSPREE_ENDPOINT = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -53,7 +53,6 @@ export function ContactSection({ data = contactData }: ContactSectionProps) {
       setIsSubmitting(false)
     }
   }
-
 
   return (
     <div className="space-y-6 md:space-y-8">
