@@ -19,13 +19,19 @@ export function ContactSection({ data = contactData }: ContactSectionProps) {
   const [isSubmitting, setIsSubmitting] = useState(false)
 
   // Replace with your Formspree endpoint
-  const FORMSPREE_ENDPOINT = "https://formspree.io/f/xpwrrjbg"
+  const FORMSPREE_ENDPOINT = process.env.FORMSPREE_ENDPOINT 
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsSubmitting(true)
 
     try {
+      if (!FORMSPREE_ENDPOINT) {
+        toast.error("Contact form is not configured. Please try again later.")
+        setIsSubmitting(false)
+        return
+      }
+
       const response = await fetch(FORMSPREE_ENDPOINT, {
         method: "POST",
         headers: {
