@@ -17,62 +17,67 @@ export const profileData = {
 
 export const aboutData = {
   description: [
-    "I'm Orji Franklin, a Full-Stack and Mobile Developer from Anambra State, Nigeria. I build practical, maintainable, and functional applications for web and mobile platforms.",
-    "I work with Java, Spring Boot, Node.js, React, Next.js, React Native, Tailwind CSS, and cloud platforms. I focus on solving real business problems efficiently and building reliable systems.",
+    "I'm Orji Franklin, a Software Engineer (Full-Stack & Mobile) based in Anambra State, Nigeria. I build practical, maintainable web and mobile applications with a strong focus on backend systems.",
+    "My work centers on Java, Spring Boot, REST APIs, React, Next.js, and React Native. I focus on solving real problems, writing clean code, and delivering reliable applications from development to deployment.",
   ],
+
   services: [
     {
       icon: Code,
       title: 'Frontend Development',
-      description: 'Building responsive and interactive web applications using React, Next.js, TypeScript, and Tailwind CSS.',
+      description:
+        'Building responsive web applications using React, Next.js, TypeScript, and Tailwind CSS.',
     },
     {
       icon: Zap,
       title: 'Backend Development',
-      description: 'Creating APIs and backend systems with Java, Spring Boot, Node.js, and database solutions like MySQL, PostgreSQL, and Redis.',
+      description:
+        'Developing backend systems and REST APIs using Java, Spring Boot, Node.js, PostgreSQL, MongoDB, and Redis.',
     },
     {
       icon: Smartphone,
       title: 'Mobile Development',
-      description: 'Developing cross-platform mobile apps with React Native (Expo) and Android (Java/Kotlin).',
+      description:
+        'Creating cross-platform mobile applications with React Native (Expo) and native Android development using Java and Kotlin.',
     },
     {
       icon: PenTool,
-      title: 'Security & Cloud',
-      description: 'Implementing secure systems with Spring Security, Redis caching, Kafka event streaming, Docker, and cloud deployment.',
+      title: 'System Maintenance & Debugging',
+      description:
+        'Debugging, improving, and maintaining existing systems with a focus on performance, reliability, and clean architecture.',
     },
   ],
+
   testimonials: [
     {
       avatar: '/business-man2.jpg',
       name: 'Chinedu Okafor',
-      text: 'Delivered a solid solution that worked exactly as expected. Very reliable and easy to work with.',
+      text: 'Delivered a solid solution that worked as expected. Reliable and professional throughout the project.',
     },
     {
       avatar: '/professional-woman-diverse.png',
       name: 'Aisha Bello',
-      text: 'Clear communication and strong technical understanding. Always focused on practical results.',
+      text: 'Good communication and strong backend knowledge. Focused on practical, working solutions.',
     },
     {
       avatar: '/business-man.jpg',
       name: 'Tunde Adeyemi',
-      text: 'Writes clean, maintainable code and understands real-world system requirements.',
+      text: 'Writes clean and maintainable code. Understands real project requirements.',
     },
     {
       avatar: '/business-woman.jpg',
       name: 'Ngozi Nwoye',
-      text: 'Professional, trustworthy, and detail-oriented. Delivered quality work on time.',
+      text: 'Professional and detail-oriented. Delivered quality work on time.',
     },
   ],
+
   clients: [
-    { name: 'Startup Projects', logo: '/tech-company-logo.jpg' },
     { name: 'Freelance Clients', logo: '/startup-logo.png' },
     { name: 'Local Businesses', logo: '/design-agency-logo.png' },
-    { name: 'SMBs', logo: '/software-company-logo.png' },
+    { name: 'Startup Projects', logo: '/tech-company-logo.jpg' },
     { name: 'Educational Projects', logo: '/web-agency-logo.jpg' },
-    { name: 'Community Apps', logo: '/app-development-logo.jpg' },
   ],
-};
+}
 
 export const resumeData = {
   education: [
@@ -118,80 +123,110 @@ export const resumeData = {
 
 export const portfolioData = {
   categories: ['all', 'web development', 'applications', 'mobile apps'],
+
   projects: [
     {
-      title: 'E-Commerce Platform',
+      title: 'E-Commerce Web Application',
       category: 'web development',
       image: '/modern-ecommerce-website.png',
-      description: 'Full-stack e-commerce solution with payment integration using Spring Boot and Next.js.',
+      description:
+        'A full-stack e-commerce web application with product listing, authentication, and order management built using Spring Boot and Next.js.',
       tech: ['Spring Boot', 'Next.js', 'PostgreSQL', 'Tailwind CSS'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/orjifranklin42/ecommerce',
+      liveUrl: '',
+      githubUrl: 'https://github.com/orjifranklin42/ecommerce-app',
     },
     {
-      title: 'Task Management App',
+      title: 'Task Management Application',
       category: 'applications',
       image: '/task-management-interface.png',
-      description: 'Collaborative task manager with real-time updates using React and Firebase.',
-      tech: ['React', 'Firebase', 'TypeScript'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/orjifranklin42/taskmanager',
+      description:
+        'A task management application that allows users to create, track, and manage tasks with authentication and real-time updates.',
+      tech: ['React', 'TypeScript', 'Firebase'],
+      liveUrl: '',
+      githubUrl: 'https://github.com/orjifranklin42/task-manager',
     },
     {
-      title: 'Portfolio Website',
+      title: 'Personal Portfolio Website',
       category: 'web development',
       image: '/minimalist-portfolio-design.jpg',
-      description: 'Personal portfolio website built with Next.js, Tailwind CSS, and Framer Motion.',
-      tech: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
-      liveUrl: 'https://example.com',
+      description:
+        'A responsive personal portfolio website showcasing projects, skills, and experience.',
+      tech: ['Next.js', 'Tailwind CSS'],
+      liveUrl: 'https://your-portfolio-url.vercel.app',
       githubUrl: 'https://github.com/orjifranklin42/portfolio',
     },
     {
-      title: 'Mobile Banking App',
+      title: 'Chocolite Movement Website',
+      category: 'web development',
+      image: '/chocolite-website.png',
+      description:
+        'A content-driven web platform built for the Chocolite Movement, focused on cultural identity, historical storytelling, and social awareness. The project features a responsive design, structured narrative sections, and optimized performance for modern browsers.',
+      tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Vercel'],
+      liveUrl: 'https://www.chocolitegroup.com',
+      githubUrl: '',
+    },
+
+    {
+      title: '2$weet DeFi Web Platform',
+      category: 'web development',
+      image: '/crypto-webapp2.png', // screenshot of the project
+      description:
+        'A decentralized finance web platform built on Ethereum, featuring real-time token balances, one-click wallet connection, and instant on-chain swaps. Implemented using Next.js, TypeScript, Node.js backend, and Web3 hooks (wagmi & viem) for wallet and blockchain interactions.',
+      tech: ['Next.js', 'TypeScript', 'Node.js', 'Wagmi', 'Viem', 'Web3', 'Vercel'],
+      liveUrl: 'https://2sweet.io',
+      githubUrl: '', // only include if you have a repo you can show
+    },
+    {
+      title: 'Mobile Utility Application',
       category: 'mobile apps',
-      image: '/banking-app-interface.png',
-      description: 'Secure cross-platform banking app developed with React Native and Node.js backend.',
-      tech: ['React Native', 'Node.js', 'MongoDB', 'Firebase'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/orjifranklin42/banking',
+      image: '/mobile-app-interface.png',
+      description:
+        'A cross-platform mobile application built with React Native (Expo) featuring API integration and clean UI.',
+      tech: ['React Native (Expo)', 'TypeScript', 'Firebase'],
+      liveUrl: '',
+      githubUrl: 'https://github.com/orjifranklin42/mobile-app',
     },
   ],
-};
+}
+
 
 export const blogData = {
   posts: [
     {
-      title: 'Building Real-World Web Applications with React & Next.js',
-      category: 'Development',
-      date: 'Jan 10, 2025',
-      readTime: '7 min',
+      title: 'Building Practical Web Applications with React and Next.js',
+      category: 'Web Development',
+      date: 'Jan 2025',
+      readTime: '6 min',
       image: '/web-development-coding.png',
-      excerpt: 'Practical techniques for building scalable, maintainable web applications using modern frameworks.',
+      excerpt:
+        'A practical guide to building maintainable and responsive web applications using React and Next.js.',
       tags: ['React', 'Next.js', 'Web Development'],
-      slug: 'building-real-world-web-apps',
+      slug: 'practical-react-nextjs-apps',
     },
     {
-      title: 'Introduction to Microservices and Kafka',
-      category: 'Architecture',
-      date: 'Feb 5, 2025',
-      readTime: '10 min',
+      title: 'Understanding REST APIs with Spring Boot',
+      category: 'Backend',
+      date: 'Feb 2025',
+      readTime: '7 min',
       image: '/software-architecture.jpg',
-      excerpt: 'A hands-on guide to building microservices and using Kafka for event-driven systems.',
-      tags: ['Java', 'Spring Boot', 'Kafka', 'Microservices'],
-      slug: 'microservices-kafka-guide',
+      excerpt:
+        'An introduction to designing and building REST APIs using Java and Spring Boot.',
+      tags: ['Java', 'Spring Boot', 'REST APIs'],
+      slug: 'spring-boot-rest-apis',
     },
     {
-      title: 'React Native for Cross-Platform Mobile Apps',
+      title: 'Getting Started with React Native (Expo)',
       category: 'Mobile',
-      date: 'Mar 1, 2025',
-      readTime: '8 min',
+      date: 'Mar 2025',
+      readTime: '6 min',
       image: '/mobile-development.png',
-      excerpt: 'Best practices for building maintainable mobile applications using React Native and Expo.',
+      excerpt:
+        'A beginner-friendly guide to building cross-platform mobile applications using React Native and Expo.',
       tags: ['React Native', 'Expo', 'Mobile Development'],
-      slug: 'react-native-cross-platform',
+      slug: 'react-native-expo-basics',
     },
   ],
-};
+}
 
 export const contactData = {
   email: 'orjifranklin42@gmail.com',
