@@ -1,7 +1,7 @@
 import { PenTool, Code, Smartphone, Zap } from 'lucide-react'
 
 export const profileData = {
-name: 'Orji Franklin',
+  name: 'Orji Franklin',
   title: 'Full-Stack Developer',
   avatar: '/me.jpeg',
   email: 'orjifranklin42@gmail.com',
@@ -44,24 +44,24 @@ export const aboutData = {
   ],
   testimonials: [
     {
-      avatar: '/professional-man.jpg',
-      name: 'Daniel Lewis',
-      text: 'Delivered a high-quality project with practical solutions. Reliable and professional.',
+      avatar: '/business-man2.jpg',
+      name: 'Chinedu Okafor',
+      text: 'Delivered a solid solution that worked exactly as expected. Very reliable and easy to work with.',
     },
     {
       avatar: '/professional-woman-diverse.png',
-      name: 'Jessica Miller',
-      text: 'Clear communication, technically strong, and solution-oriented.',
+      name: 'Aisha Bello',
+      text: 'Clear communication and strong technical understanding. Always focused on practical results.',
     },
     {
-      avatar: '/professional-man.jpg',
-      name: 'Michael Chen',
-      text: 'Consistently produces maintainable, efficient code. Highly recommended.',
+      avatar: '/business-man.jpg',
+      name: 'Tunde Adeyemi',
+      text: 'Writes clean, maintainable code and understands real-world system requirements.',
     },
     {
-      avatar: '/professional-woman-diverse.png',
-      name: 'Sarah Johnson',
-      text: 'Trustworthy, skilled, and professional. Strong understanding of real-world systems.',
+      avatar: '/business-woman.jpg',
+      name: 'Ngozi Nwoye',
+      text: 'Professional, trustworthy, and detail-oriented. Delivered quality work on time.',
     },
   ],
   clients: [
@@ -78,38 +78,43 @@ export const resumeData = {
   education: [
     {
       title: 'Diploma of Higher Education – Software Engineering',
-      period: 'Nov 2021 – Sep 2023',
+      period: 'Nov 2022 – Nov 2024',
       description:
-        'Studied software engineering principles, web and mobile development, and practical backend systems with Java, Spring Boot, and cloud tools.',
+        'Studied software engineering fundamentals, web and mobile development. Focused on backend systems using Java, Spring Boot, APIs, databases, and application deployment.',
     },
   ],
+
   experience: [
     {
       title: 'Programming Instructor (Java)',
-      company: 'National Institute of Information and Technology, Onitsha',
-      period: 'Jan 2023 – Present',
+      company: 'National Institute of Information Technology, Onitsha',
+      period: 'Jan 2025 – Present',
       description:
-        'Delivered advanced training in Java, Spring Boot, Hibernate, microservices, Docker, Kafka, and REST APIs. Mentored over 100 students, integrating frontend modules with React & TypeScript for full-stack projects.',
+        'Teach Java, Spring Boot, Hibernate, REST APIs, and backend development fundamentals. Guide students in building backend systems and simple microservice-based applications. Integrate frontend modules using React and TypeScript for full-stack projects. Mentored over 100 students through hands-on coding and real-world project work.',
     },
     {
       title: 'Full-Stack & Mobile Software Developer (Freelance)',
-      company: 'Collaborative Tech Projects, Onitsha',
-      period: 'Jul 2022 – Present',
+      company: 'Freelance',
+      period: 'Jul 2024 – Present',
       description:
-        'Built backend systems using Spring Boot, Node.js, Docker, Redis, and secure authentication. Developed cross-platform mobile apps with React Native and responsive web apps with React, Next.js, and Tailwind CSS. Managed full development cycles from architecture to deployment.',
+        'Build and maintain backend systems using Spring Boot, Node.js, Redis, and secure authentication. Develop cross-platform mobile applications with React Native (Expo). Create responsive web applications using React, Next.js, and Tailwind CSS. Manage full development lifecycle including design, development, testing, and deployment.',
     },
   ],
+
   skills: [
-    { name: 'Java & Spring Boot', level: 95 },
-    { name: 'JavaScript & TypeScript', level: 90 },
-    { name: 'React & Next.js', level: 90 },
-    { name: 'React Native (Expo)', level: 85 },
-    { name: 'Node.js & Backend APIs', level: 85 },
-    { name: 'Database Design (SQL & NoSQL)', level: 80 },
-    { name: 'Cloud & DevOps (Docker, Firebase)', level: 80 },
-    { name: 'Security & Event Streaming (Spring Security, Kafka, Redis)', level: 80 },
+    { name: 'Java', level: 90 },
+    { name: 'Spring Boot & REST APIs', level: 90 },
+    { name: 'JavaScript & TypeScript', level: 85 },
+    { name: 'React.js & Next.js', level: 85 },
+    { name: 'React Native (Expo)', level: 80 },
+    { name: 'Android Development (Java / Kotlin)', level: 75 },
+    { name: 'Databases (PostgreSQL, MongoDB, Firebase)', level: 75 },
+    { name: 'Git & GitHub', level: 80 },
+    { name: 'Docker (Basic Usage)', level: 70 },
+    { name: 'Debugging & Code Maintenance', level: 85 },
   ],
-};
+}
+
 
 export const portfolioData = {
   categories: ['all', 'web development', 'applications', 'mobile apps'],
