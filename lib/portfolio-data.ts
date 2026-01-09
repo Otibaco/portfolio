@@ -158,24 +158,48 @@ export const portfolioData = {
     {
       title: 'Chocolite Movement Website',
       category: 'web development',
-      image: '/chocolite-website.png',
+      image: '/Chocolite-image.png',
       description:
         'A content-driven web platform built for the Chocolite Movement, focused on cultural identity, historical storytelling, and social awareness. The project features a responsive design, structured narrative sections, and optimized performance for modern browsers.',
       tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Vercel'],
       liveUrl: 'https://www.chocolitegroup.com',
-      githubUrl: '',
+      githubUrl: 'https://github.com/Otibaco/Chocolite',
     },
 
     {
       title: '2$weet DeFi Web Platform',
       category: 'web development',
-      image: '/crypto-webapp2.png', // screenshot of the project
+      image: '/2sweet-image.png',
       description:
         'A decentralized finance web platform built on Ethereum, featuring real-time token balances, one-click wallet connection, and instant on-chain swaps. Implemented using Next.js, TypeScript, Node.js backend, and Web3 hooks (wagmi & viem) for wallet and blockchain interactions.',
       tech: ['Next.js', 'TypeScript', 'Node.js', 'Wagmi', 'Viem', 'Web3', 'Vercel'],
       liveUrl: 'https://2sweet.io',
-      githubUrl: '', // only include if you have a repo you can show
+      githubUrl: '',// omitted private client work
     },
+
+    {
+      title: 'Eriwa Plumbery – Plumbing Services & Mini E-Commerce Website',
+      category: 'web development',
+      image: '/eriwa-plumbery-image.png', // screenshot of homepage or services section
+      description:
+        'A business website and mini e-commerce platform for a Nigerian plumbing company. The site allows the business owner to manage and display plumbing products and service pricing, while customers can browse services, view products, and contact the business directly via phone or social media to place orders or request installations.',
+      tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Vercel'],
+      liveUrl: 'https://eriwa-plumbery.vercel.app/',
+      githubUrl: 'https://github.com/Otibaco/Eriwa-Plumbery', //https://github.com/Otibaco/Eriwa-Plumbery
+    },
+
+    {
+      title: 'Diocese of Asaba Agape Foundation (DAAF) – Donation & NGO Website',
+      category: 'web development',
+      image: '/daaf-website-image.png', // use a homepage or donation section screenshot
+      description:
+        'A humanitarian NGO website built for the Diocese of Asaba Agape Foundation to support donations, volunteer engagement, and community outreach. The platform showcases the foundation’s mission, programs, impact statistics, and activities while enabling secure online donations and direct communication with supporters.',
+      tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Vercel'],
+      liveUrl: 'https://www.agapefoundationasaba.org/',
+      githubUrl: '', // omitted private client work
+    },
+
+
     {
       title: 'Mobile Utility Application',
       category: 'mobile apps',
@@ -186,6 +210,7 @@ export const portfolioData = {
       liveUrl: '',
       githubUrl: 'https://github.com/orjifranklin42/mobile-app',
     },
+
   ],
 }
 
