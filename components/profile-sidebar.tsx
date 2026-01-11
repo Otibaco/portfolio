@@ -1,9 +1,16 @@
-import { Mail, Phone, Calendar, MapPin, Linkedin } from 'lucide-react'
-import { Github, Twitter, Instagram } from 'lucide-react'
-import { profileData } from '@/lib/portfolio-data'
+import {
+  Mail,
+  Phone,
+  Calendar,
+  MapPin,
+  Linkedin,
+  Briefcase,
+} from "lucide-react";
+import { Github, Twitter, Instagram } from "lucide-react";
+import { profileData } from "@/lib/portfolio-data";
 
 interface ProfileSidebarProps {
-  data?: typeof profileData
+  data?: typeof profileData;
 }
 
 export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
@@ -22,7 +29,9 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
           </div>
         </div>
 
-        <h1 className="text-xl md:text-2xl font-bold text-foreground mb-1">{data.name}</h1>
+        <h1 className="text-xl md:text-2xl font-bold text-foreground mb-1">
+          {data.name}
+        </h1>
         <p className="text-xs md:text-sm text-muted-foreground bg-secondary px-3 md:px-4 py-1 rounded-lg">
           {data.title}
         </p>
@@ -38,7 +47,9 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
             <Mail className="w-5 h-5 text-accent" />
           </div>
           <div className="flex-1 min-w-0">
-            <p className="text-xs text-muted-foreground uppercase mb-1">Email</p>
+            <p className="text-xs text-muted-foreground uppercase mb-1">
+              Email
+            </p>
             <a
               href={`mailto:${data.email}`}
               className="text-sm text-foreground hover:text-accent transition-colors break-all"
@@ -53,9 +64,11 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
             <Phone className="w-5 h-5 text-accent" />
           </div>
           <div className="flex-1">
-            <p className="text-xs text-muted-foreground uppercase mb-1">Phone</p>
+            <p className="text-xs text-muted-foreground uppercase mb-1">
+              Phone
+            </p>
             <a
-              href={`tel:${data.phone.replace(/\s/g, '')}`}
+              href={`tel:${data.phone.replace(/\s/g, "")}`}
               className="text-sm text-foreground hover:text-accent transition-colors"
             >
               {data.phone}
@@ -65,11 +78,13 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
 
         <div className="flex items-start gap-3">
           <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0">
-            <Calendar className="w-5 h-5 text-accent" />
+            <Briefcase className="w-5 h-5 text-accent" />
           </div>
           <div className="flex-1">
-            <p className="text-xs text-muted-foreground uppercase mb-1">Birthday</p>
-            <p className="text-sm text-foreground">{data.birthday}</p>
+            <p className="text-xs text-muted-foreground uppercase mb-1">
+              Availability
+            </p>
+            <p className="text-sm text-foreground">{data.availability}</p>
           </div>
         </div>
 
@@ -78,7 +93,9 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
             <MapPin className="w-5 h-5 text-accent" />
           </div>
           <div className="flex-1">
-            <p className="text-xs text-muted-foreground uppercase mb-1">Location</p>
+            <p className="text-xs text-muted-foreground uppercase mb-1">
+              Location
+            </p>
             <p className="text-sm text-foreground">{data.location}</p>
           </div>
         </div>
@@ -115,5 +132,5 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
         </a>
       </div>
     </aside>
-  )
+  );
 }
