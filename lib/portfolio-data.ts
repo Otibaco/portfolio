@@ -2,7 +2,7 @@ import { PenTool, Code, Smartphone, Zap } from "lucide-react";
 
 export const profileData = {
   name: "Orji Franklin",
-  title: "Full-Stack Developer",
+  title: "Software Engineer (Full-Stack & Mobile)",
   avatar: "/me.jpeg",
   email: "orjifranklin42@gmail.com",
   phone: "+2349169307673",
