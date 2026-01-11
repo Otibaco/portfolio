@@ -107,16 +107,56 @@ export const resumeData = {
   ],
 
   skills: [
-    { name: "Java", level: 90 },
-    { name: "Spring Boot & REST APIs", level: 90 },
-    { name: "JavaScript & TypeScript", level: 85 },
-    { name: "React.js & Next.js", level: 85 },
-    { name: "React Native (Expo)", level: 80 },
-    { name: "Android Development (Java / Kotlin)", level: 75 },
-    { name: "Databases (PostgreSQL, MongoDB, Firebase)", level: 75 },
-    { name: "Git & GitHub", level: 80 },
-    { name: "Docker (Basic Usage)", level: 70 },
-    { name: "Debugging & Code Maintenance", level: 85 },
+    {
+      name: "Java",
+      description:
+        "3+ years building production-grade backend systems and APIs with Java.",
+    },
+    {
+      name: "Spring Boot & REST APIs",
+      description:
+        "Designed and implemented secure, scalable RESTful APIs for web and mobile applications.",
+    },
+    {
+      name: "JavaScript & TypeScript",
+      description:
+        "Experience writing modern, maintainable, and type-safe frontend and backend code.",
+    },
+    {
+      name: "React.js & Next.js",
+      description:
+        "Built responsive, high-performance web apps with React.js and server-side rendering using Next.js.",
+    },
+    {
+      name: "React Native (Expo)",
+      description:
+        "Developed cross-platform mobile apps with React Native (Expo), including deployment and testing.",
+    },
+    {
+      name: "Android Development (Java / Kotlin)",
+      description:
+        "Built native Android apps, focusing on performance, UX, and integration with backend APIs.",
+    },
+    {
+      name: "Databases (PostgreSQL, MongoDB, Firebase)",
+      description:
+        "Designed schemas, optimized queries, and managed relational and NoSQL databases.",
+    },
+    {
+      name: "Git & GitHub",
+      description:
+        "Version control, branching strategies, and collaborative development in real-world projects.",
+    },
+    {
+      name: "Docker (Basic Usage)",
+      description:
+        "Containerized applications for development and deployment using Docker.",
+    },
+    {
+      name: "Debugging & Code Maintenance",
+      description:
+        "Experience maintaining and debugging complex codebases for performance and reliability.",
+    },
   ],
 };
 

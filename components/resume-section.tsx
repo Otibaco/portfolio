@@ -50,25 +50,20 @@ export function ResumeSection({ data = resumeData }: ResumeSectionProps) {
       </div>
 
       {/* Skills */}
-      <div>
-        <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6">My Skills</h3>
-        <div className="space-y-5 md:space-y-6">
-          {data.skills.map((skill, index) => (
-            <div key={index}>
-              <div className="flex justify-between mb-2">
-                <span className="text-xs md:text-sm font-medium text-foreground">{skill.name}</span>
-                <span className="text-xs md:text-sm text-muted-foreground">{skill.level}%</span>
-              </div>
-              <div className="h-2 bg-secondary rounded-full overflow-hidden">
-                <div
-                  className="h-full bg-accent rounded-full transition-all duration-1000 ease-out"
-                  style={{ width: `${skill.level}%` }}
-                />
-              </div>
-            </div>
-          ))}
+<div>
+  <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6">My Skills</h3>
+  <div className="space-y-5 md:space-y-6">
+    {data.skills.map((skill, index) => (
+      <div key={index}>
+        <div className="mb-1">
+          <span className="text-sm md:text-base font-semibold text-foreground">{skill.name}</span>
         </div>
+        <div className="text-xs md:text-sm text-muted-foreground">{skill.description}</div>
       </div>
+    ))}
+  </div>
+</div>
+
     </div>
   )
 }
